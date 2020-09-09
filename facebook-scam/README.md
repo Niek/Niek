@@ -43,4 +43,4 @@ What I have done so far:
 * Invalidated all signed in devices/tokens
 * Reported the fake TikTok Ads Business page to Facebook (no reponse yet)
 * Reported the fake TikTok Ads Business app to Google (no response yet)
-* Initiated a PayPal chargeback process
+* Initiated a PayPal chargeback process - PayPal responded: "we’ve determined there was no unauthorized use"
