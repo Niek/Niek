@@ -2,7 +2,7 @@
 
 **TLDR**: don't click ads if you don't trust them 100%
 
-This is a cautionary tale of how I lost close to €4,000 in a sophisticated Facebook scam.
+This is a cautionary tale of how I lost close to €4,000 in a sophisticated Facebook scam. I still find it hard to believe I fell for a scam like this. I have 2FA on all my accounts, use a password manager, and I'm generally very cautious with account security.
 
 ![TikTok Ads Business page](tiktok-fb-logo.png)
 
@@ -38,4 +38,9 @@ Fortunately I found the [Facebook Business Support](https://www.messenger.com/t/
 
 It's been 12 hours later now and I haven't received an email from Facebook yet. This is a very frustrating experience so far. Will I get my ad account and business account (including all pages that belong to it) back? Will I get the money refunded? What kind of ads did these scammer run with my ad account? I will update this document if I find out more.
 
-The Facebook page and Android app have been reported to Facebook/Google respectively, but I have not received any feedback on this so far.
+What I have done so far:
+* Changed my Facebook and PayPal passwords
+* Invalidated all signed in devices/tokens
+* Reported the fake TikTok Ads Business page to Facebook (no reponse yet)
+* Reported the fake TikTok Ads Business app to Google (no response yet)
+* Initiated a PayPal chargeback process
