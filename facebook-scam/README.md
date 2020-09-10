@@ -36,11 +36,23 @@ Fortunately I found the [Facebook Business Support](https://www.messenger.com/t/
 
 ![Facebook chat](facebook-chat.png)
 
-It's been 12 hours later now and I haven't received an email from Facebook yet. This is a very frustrating experience so far. Will I get my ad account and business account (including all pages that belong to it) back? Will I get the money refunded? What kind of ads did these scammer run with my ad account? I will update this document if I find out more.
+A day later I contacted Facebook for an update, and they confirmed the issue again. Another 24 hours later an I got full access back to my ad account. This is the damage that was done before Facebook disabled the account:
 
-What I have done so far:
+![Ad spent](adspent.jpg)
+
+All this money was spent on this one Vietnamese ad, promoting some kind of aluminium 🤔 product:
+
+![Ad spent](ad.jpg)
+
+To recap:
+* Total spent: €8,235.82 (of which I was charged €3,990.17)
+* Total impressions: 3,184,933
+* Total reach: 2,674,194
+* Total conversions: 2,126 "send message" clicks 😳
+
+I am still waiting on a decision from Facebook if they are going to refund the charge. In the meantime, I have done the following:
 * Changed my Facebook and PayPal passwords
 * Invalidated all signed in devices/tokens
-* Reported the fake TikTok Ads Business page to Facebook (no reponse yet)
-* Reported the fake TikTok Ads Business app to Google (no response yet)
-* Initiated a PayPal chargeback process - PayPal responded: "we’ve determined there was no unauthorized use"
+* Reported the fake TikTok Ads Business page to Facebook - no reponse yet
+* Reported the fake TikTok Ads Business app to Google - the app was taken down 2 days later
+* Initiated a PayPal chargeback process - PayPal responded: "we’ve determined there was **no** unauthorized use"
