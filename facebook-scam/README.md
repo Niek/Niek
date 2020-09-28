@@ -1,6 +1,6 @@
 # How I lost €4k in a Facebook scam
 
-**TLDR**: don't click ads if you don't trust them 100%
+**TLDR**: Don't click ads if you don't trust them 100%. Good scams can fool even the Facebook ad review team and Google's Play Store review team.
 
 This is a cautionary tale of how I lost close to €4,000 in a sophisticated Facebook scam. I still find it hard to believe I fell for a scam like this. I have 2FA on all my accounts, use a password manager, and I'm generally very cautious with account security.
 
@@ -50,9 +50,10 @@ To recap:
 * Total reach: 2,674,194
 * Total conversions: 2,126 "send message" clicks 😳
 
-I am still waiting on a decision from Facebook if they are going to refund the charge. In the meantime, I have done the following:
+Immediately after all this happened, I did the following:
 * Changed my Facebook and PayPal passwords
 * Invalidated all signed in devices/tokens
-* Reported the fake TikTok Ads Business page to Facebook - no reponse yet
+* Reported the fake TikTok Ads Business page to Facebook - no reponse, but the page was taken down after some days
 * Reported the fake TikTok Ads Business app to Google - the app was taken down 2 days later
 * Initiated a PayPal chargeback process - PayPal responded: "we’ve determined there was **no** unauthorized use"
+* Requested Facebook for a refund, after a week of back & forth they refunded the full charged amount. Props to them!
