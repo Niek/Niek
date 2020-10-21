@@ -57,3 +57,5 @@ Immediately after all this happened, I did the following:
 * Reported the fake TikTok Ads Business app to Google - the app was taken down 2 days later
 * Initiated a PayPal chargeback process - PayPal responded: "we’ve determined there was **no** unauthorized use"
 * Requested Facebook for a refund, after a week of back & forth they refunded the full charged amount. Props to them!
+
+**Update**: someone emailed me that they found a similar ad while browsing Facebook, but linking to [this scam site](https://getstarted.tiktokadsformarketing.com/). The delivery is slightly different (fully done in-browser instead of a mobile app) but the rest of the scam is the same: it requires a Facebook login, which the scammers use to take over your Facebook Ads account.
