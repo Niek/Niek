@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect x="0" y="0" width="100%" height="100%" style="fill: #fafbfc; stroke: #e1e4e8; stroke-width: 2" />
+<script type="text/javascript" xlink:href="https://unpkg.com/ua-parser-js/dist/ua-parser.min.js"></script>
+<script type="text/javascript">
+var _offset = 5;
+
+var browser = (new UAParser()).getResult();
+
+addLine('Hello' + (document.referrer ? ' ' + (new URL(document.referrer)).hostname + ' visitor' : '') + '! 👋🏻');
+addLine('');
+addLine('Browser:', browser.browser.name + ' ' + browser.browser.version);
+addLine('OS:', browser.os.name + ' ' + browser.os.version);
+addLine('Language:', navigator.languages.join(', '));
+addLine('Device:', 'ontouchstart' in window ? 'mobile' : 'desktop');
+
+function addLine(key, value = '') {
+    _offset += 20;
+
+    let el = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+    el.setAttribute('style','fill: #24292e; font-weight: ' + (value.length > 0 ? 'bold' : 'normal') + '; font-family: Helvetica');
+    if (value.length === 0) {
+        el.setAttribute('text-anchor', 'middle');
+        el.setAttribute('dominant-baseline', 'central');
+        el.setAttribute('x', '50%');
+        el.setAttribute('font-size', '1.5em');
+    } else {
+        el.setAttribute('x', '5');
+    }
+    el.setAttribute('y', _offset);
+    el.textContent = key;
+    document.documentElement.appendChild(el);
+
+    if (value.length > 0) {
+        let el = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+        el.setAttribute('style','fill: #24292e; font-weight: normal; font-family: Helvetica');
+        el.setAttribute('x', '90');
+        el.setAttribute('y', _offset);
+        el.textContent = value;
+        document.documentElement.appendChild(el);
+    }
+}
+
+function geoip(data) {
+    addLine('IP:', data.ip);
+    addLine('ISP:', data.organization_name);
+    addLine('Location:', data.city + ', ' + data.country)
+    // TODO: .langitude and .longitude for a small map
+}
+
+</script>
+<script type="text/javascript" xlink:href="https://get.geojs.io/v1/ip/geo.js"></script>
+</svg>
