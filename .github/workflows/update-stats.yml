@@ -19,7 +19,8 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: "username=${{ github.repository_owner }}&show_icons=true&custom_title=Niek%27s%20GitHub%20Stats:"
+          options: >-
+            username=${{ github.repository_owner }}&show_icons=true&custom_title=Niek%27s%20GitHub%20Stats:
           path: .github/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
