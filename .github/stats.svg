@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Niek's GitHub Stats:, Rank: A+</title>
-        <desc id="descId">Total Stars Earned: 3926, Total Commits  (last year) : 18383, Total PRs: 155, Total Issues: 260, Contributed to (last year): 36</desc>
+        <desc id="descId">Total Stars Earned: 3927, Total Commits  (last year) : 18423, Total PRs: 155, Total Issues: 260, Contributed to (last year): 36</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 16.921845454440227;
+        stroke-dashoffset: 16.92158055158303;
       }
     }
   
